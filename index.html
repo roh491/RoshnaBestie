@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Birthday Celebration!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="header" id="home">
+        <div id="confetti-container"></div>
+        <div id="balloons-container"></div>
+        <h1 class="birthday-text">Happy Birthday</h1>
+        <h2 class="name" id="bestie-name"></h2>
+        <div class="scroll-down" onclick="scrollToSection('memories')">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </div>
+
+    <!-- Floating Photo Frame -->
+    <div class="photo-frame">
+        <img src="MAIN/ChatGPT Image Jul 1, 2025, 10_53_02 AM.jpg" alt="Special Memory">
+    </div>
+
+    <!-- Popup Overlay -->
+    <div class="popup-overlay" id="popupOverlay"></div>
+
+    <!-- Popup Message -->
+    <div class="popup-message" id="popupMessage">
+        <span class="popup-close" onclick="closePopup()">&times;</span>
+        <h3>Surprise!</h3>
+        <p>You're the most amazing friend in the world! Thank you for being you!</p>
+        <p>❤️</p>
+    </div>
+
+
+    <!-- Memories Section -->
+
+    <section class="memories" id="memories">
+        <h2 class="section-title">My Precious Moments with Roshna 💖</h2>
+        <div class="memory-grid">
+
+            <!-- Memory 1 -->
+            <div class="memory-card">
+                <img src="MAIN/7.JPG" alt="First Meet" class="memory-img">
+                <div class="memory-caption">
+                    <h3>When Everything Began</h3>
+                    <p>The day I met you, something beautiful started. Our bond was instant — like we knew we were meant
+                        to be besties.</p>
+                </div>
+            </div>
+
+            <!-- Memory 2 -->
+            <div class="memory-card">
+                <img src="MAIN/4 (1).jpg" alt="Happy Moments" class="memory-img">
+                <div class="memory-caption">
+                    <h3>Smiles That Speak Volumes</h3>
+                    <p>Your smile, our giggles, the chaos — all stitched together into memories I’ll never stop
+                        cherishing.</p>
+                </div>
+            </div>
+
+
+            <!-- Memory 4 -->
+            <div class="memory-card">
+                <img src="MAIN/8.jpg" alt="Trip Together" class="memory-img">
+                <div class="memory-caption">
+                    <h3>That One Trip 💫</h3>
+                    <p>Every photo from that trip reminds me: life’s better when you’re with your best friend by your
+                        side.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <!-- Photo Collage Section -->
+    <section class="collage" id="collage">
+        <h2 class="section-title">Our Journey, Roshna & Me 💫</h2>
+        <div class="collage-grid">
+            <div class="collage-item">
+                <img src="MAIN/10.jpg" alt="Photo 1">
+            </div>
+            <div class="collage-item">
+                <img src="MAIN/1.jpeg" alt="Photo 2">
+            </div>
+            <div class="collage-item">
+                <img src="MAIN/ChatGPT Image Jul 1, 2025, 11_08_23 AM.jpg" alt="Photo 3">
+            </div>
+            <div class="collage-item">
+                <img src="MAIN/a (2).jpg" alt="Photo 4">
+            </div>
+            <div class="collage-item">
+                <img src="MAIN/16.jpg" alt="Photo 5">
+            </div>
+            <div class="collage-item">
+                <img src="MAIN/17.jpg" alt="Photo 6">
+            </div>
+            <div class="collage-item">
+                <img src="MAIN/a (1).jpg" alt="Photo 7">
+            </div>
+
+
+            <div class="collage-item">
+                <img src="MAIN/5.jpg" alt="Photo 7">
+
+            </div>
+
+            <div class="collage-item">
+                <img src="MAIN/8.jpg" alt="Photo 7">
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline" id="timeline">
+        <h2 class="section-title">Our Friendship Timeline 💕</h2>
+        <div class="timeline-container">
+            <div class="timeline-item">
+                <div class="timeline-date">When We Met</div>
+                <div class="timeline-content">
+                    <h3>That Unexpected Start</h3>
+                    <p>I never imagined someone could become so important so fast. Our friendship started in the most
+                        random way but turned into something truly rare and special. That moment changed everything.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">The Vibe Era</div>
+                <div class="timeline-content">
+                    <h3>Late Nights, Deep Talks</h3>
+                    <p>When we talked about life, dreams, fears, and everything in between. We laughed, cried, and
+                        healed together. Those were the moments that built a bond no one can break.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">Roshna’s Impact</div>
+                <div class="timeline-content">
+                    <h3>The Light in My Darkest Days</h3>
+                    <p>Roshna, you’re more than just a friend you’re the calm to my storm. Your presence has always
+                        been comforting, your words healing, and your heart, the warmest I know. You taught me what true friendship means.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">Peer Chanasi</div>
+                <div class="timeline-content">
+                    <h3>Above the Clouds Together</h3>
+                    <p>The view from Peer Chanasi was breathtaking but nothing compared to the peace I felt just being
+                        there with you. We laughed like kids, posed like pros, and made memories that felt like magic.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">Miranjani Hike</div>
+                <div class="timeline-content">
+                    <h3>Steps, Struggles & Scenic Views</h3>
+                    <p>Every step of that hike to Miranjani was worth it not just for the views, but for the unspoken
+                        strength we shared. The tired legs, the goofy selfies, the deep conversations — unforgettable.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">Forever Moments</div>
+                <div class="timeline-content">
+                    <h3>Unwritten Yet Eternal</h3>
+                    <p>We’re still writing this timeline. One memory at a time. No matter what happens, I know our bond
+                        is
+                        for life. I wouldn’t trade it for anything. 💖</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Messages Section -->
+    <section class="messages" id="messages">
+        <h2 class="section-title">To Roshna My Constant 🌸</h2>
+        <div class="message-container">
+            <p class="message">Pretty Roshna,</p>
+            <p class="message">You came into my life so quietly yet made the loudest difference. You're the calm in my
+                chaos, the laugh in my silence, and the strength in my lows.</p>
+            <p class="message">You're not just my best friend. You're my world. The one who gets me without
+                explanations, who listens without judgment, and who stays no matter what.</p>
+            <p class="message">Whether we’re laughing like crazy, crying our hearts out, or just sitting in silence —
+                every moment with you is a memory I cherish deeply.</p>
+            <p class="message">Even when the whole world doesn’t understand me, you do. And that means more than words
+                will ever say.</p>
+            <p class="message">Thank you for always being there, for always caring, and for being the sunshine I didn’t
+                know I needed. I truly don’t say it enough, but I’m so grateful for you, Roshna.</p>
+            <p class="message">You are rare. You are real. You are my person. 🌸</p>
+            <p class="message">Happy Birthday, bestie. May your heart always be full, your smile always shine, and your
+                dreams come true. I love you more than you'll ever know. 🎂✨</p>
+        </div>
+    </section>
+
+    <!-- Things I Love About You Section -->
+    <section class="reasons" id="reasons">
+        <h2 class="section-title">Things I Love About You 💕</h2>
+        <ul class="reason-list">
+            <li>🌈 The way you always check on me, even when you're not okay.</li>
+            <li>🫶 How you turn every small moment into something beautiful.</li>
+            <li>🎧 Our late-night talks and how you just get me, every time.</li>
+            <li>🤍 Your laugh I swear it's therapy on bad days.</li>
+            <li>📝 How you remember the little things I say, even when I forget.</li>
+            <li>🚪 That no matter what happens, I know I can always count on you.</li>
+        </ul>
+    </section>
+
+    <!-- Final Thank You Note -->
+    <section class="thankyou" id="thankyou">
+        <h2 class="section-title">Just One Last Thing...</h2>
+        <div class="thankyou-container">
+            <p class="message">If I could write a book about friendship, you’d be every chapter, every line, every word.
+                You are the warmest part of my life, and I will forever be thankful for your presence, your soul, and
+                your love.</p>
+            <p class="message">No matter where life takes us — near or far, together or apart you’ll always have a
+                home in my heart.</p>
+            <p class="message">Here’s to growing, glowing, and never letting go. Always by your side, forever your best
+                friend. 🌟</p>
+            <p class="message"><strong>With all my heart,</strong><br>Your bestie 💖</p>
+        </div>
+    </section>
+
+<!-- Video Section -->
+<section class="videos" id="videos">
+    <h2 class="section-title">Our Special Moments 🎥✨</h2>
+    <div class="video-grid">
+        <div class="video-card">
+            <video controls poster="MAIN/7.mp4">
+                <source src="MAIN/7.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+        </div>
+        <div class="video-card">
+            <video controls poster="MAIN/2.mp4">
+                <source src="MAIN/2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+        </div>
+        <div class="video-card">
+            <video controls poster="MAIN/10.mp4">
+                <source src="MAIN/10.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+    </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made with <span class="heart">❤</span> for the most amazing best friend in the world</p>
+
+    </footer>
+
+    <!-- Gift Popup Template -->
+    <div class="popup-message" id="giftPopup">
+        <span class="popup-close" onclick="closePopup()">&times;</span>
+        <img id="giftPopupImage" src="" alt="Gift Image"
+            style="max-width: 200px; margin-bottom: 20px; border-radius: 10px;">
+        <h3 id="giftPopupTitle">Gift Title</h3>
+        <p id="giftPopupMessage">Gift message goes here</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
